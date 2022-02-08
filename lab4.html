@@ -22,22 +22,48 @@
   		<div>
   			<label>Email: <input type="email" name="email_field" placeholder="email here"></label>
   		</div>
-  		<div>
-  			<label for="our_textarea">Comments:</label>
-  			<textarea cols="30" rows="10" name="comments_field" placeholder="Add comment here" id="our_textarea"></textarea>
-  		</div>
-  	
   		<h3>Gender:</h3>
-  		<div>
   			<label>Female:<input type="radio" name="gender_field" value="female"></label>
+
+  		<div>
   			<label>Male:<input type="radio" name="gender_field" value="Male"></label>
+  		</div>
+  		<div>
   			<label>Non-binary:<input type="radio" name="gender_field" value="Non-binary"></label>
+  		</div>
+  		<div>
   			<label>Transgender:<input type="radio" name="gender_field" value="Transgender"></label>
+  		</div>
+  		<div>
   			<label>I prefer not to say:<input type="radio" name="gender_field" value="I prefer not to say"></label>
   		</div>
   		<h3>Age:</h3>
   		<div>
-  		
+  			<select name= "age_field--------">
+  			<option value="under 18">under 18</option>
+  			<option value="18-24">18-24</option>
+  			<option value="25-34">25-34</option>
+  			<option value="35-44">35-44</option>
+  			<option value="45-54">45-54</option>
+  			<option value="55-64">55-64</option>
+  			<option value="65 and over">65 and over</option>
+  			</select>
+  		</div>
+  	</fieldset> 	
+  	<fieldset>
+  		<legend>My Availability</legend>
+  		<h3> Days Available:</h3>
+  			<label>Sunday<input type="checkbox" name="available_field[]" value"Sunday"></label><br>
+  			<label>Monday<input type="checkbox" name="available_field[]" value"Monday"></label><br>
+  			<label>Tuesday<input type="checkbox" name="available_field[]" value"Tuesday"></label><br>
+  			<label>Wednesday<input type="checkbox" name="available_field[]" value"Wednesday"></label><br>
+  			<label>Thursday<input type="checkbox" name="available_field[]" value"Thursday"></label><br>
+  			<label>Friday<input type="checkbox" name="available_field[]" value"Friday"></label><br>
+  			<label>Saturday<input type="checkbox" name="available_field[]" value"Saturday"></label><br>
+  		<div>
+  			<label for="our_textarea">Any Comments/Concerns?:</label>
+  			<textarea cols="30" rows="10" name="comments_field" placeholder="Add comment here" id="our_textarea"></textarea>
+  		</div>
   	</fieldset>
   </form>	
 </body>  			
